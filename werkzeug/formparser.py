@@ -75,11 +75,11 @@ def parse_form_data(environ, stream_factory=None, charset='utf-8',
     :param errors: The encoding error behavior.
     :param max_form_memory_size: the maximum number of bytes to be accepted for
                            in-memory stored form data.  If the data
-                           exceeds the value specified an
+                           exceeds the value specified a
                            :exc:`~exceptions.RequestEntityTooLarge`
                            exception is raised.
     :param max_content_length: If this is provided and the transmitted data
-                               is longer than this value an
+                               is longer than this value a
                                :exc:`~exceptions.RequestEntityTooLarge`
                                exception is raised.
     :param cls: an optional dict class to use.  If this is not specified

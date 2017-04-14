@@ -2018,7 +2018,7 @@ class HeaderSet(MutableSet):
         self.update((header,))
 
     def remove(self, header):
-        """Remove a header from the set.  This raises an :exc:`KeyError` if the
+        """Remove a header from the set.  This raises a :exc:`KeyError` if the
         header is not in the set.
 
         .. versionchanged:: 0.5
